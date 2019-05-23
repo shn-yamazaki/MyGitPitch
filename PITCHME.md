@@ -20,7 +20,7 @@ C1 山﨑瞬
 - テストを実行するだけ |
 ---
 ```cs
-Assert.Equal(2, Add(1, 1))
+Assert.Equal(2, Add(1, 1));
 ```
 ---
 デモ
