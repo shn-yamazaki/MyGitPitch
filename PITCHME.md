@@ -5,10 +5,6 @@
 2019/6/13 若手技術共有会
 C1 山﨑瞬
 ---
-ぬるぽ
----
-ガッ
----
 ![](nullpo-ga.jpg)
 ---
 null安全とは
@@ -21,7 +17,6 @@ null安全とは
 class Person
 {
   public string Name { get; set; }
-  public int Age { get; set; }
 }
 
 class NullPoTest
@@ -29,7 +24,7 @@ class NullPoTest
   public static void Main()
   {
     Person someone = null;
-    Console.WriteLine(someone.Name);
+    var name = someone.Name;
   }
 }
 ```
@@ -46,7 +41,6 @@ System.NullReferenceException
 class Person
 {
   public string Name { get; set; }
-  public int Age { get; set; }
 }
 
 class NullPoTest
@@ -54,7 +48,7 @@ class NullPoTest
   public static void Main()
   {
     Person someone = null;
-    Console.WriteLine(someone.Name);
+    var name = someone.Name;
   }
 }
 ```
