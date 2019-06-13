@@ -44,7 +44,7 @@ class NullPoTest
 - nullチェック漏れはないか
 - テストケースに漏れがないか |
 - 稼働中にぬるぽしたらどうしよう |
-- **不安で夜も眠れない** |
+**- 不安で夜も眠れない** |
 ---
 >"I call it my billion-dollar mistake." by Tony Hoare
 ---
@@ -60,7 +60,7 @@ class NullPoTest
   }
 }
 ```
-@[6]コンパイルエラー
+@[6](コンパイルエラー)
 ---
 null安全とは、nullが原因で実行時にエラーにならないこと
 ---
@@ -79,9 +79,9 @@ class NullPoTest
   }
 }
 ```
-@[6-9]こうするとコンパイルエラーじゃなくなる
+@[6-9](こうするとコンパイルエラーじゃなくなる)
 ---
-再掲
+### 再掲
 ![](nullpo-ga.jpg)
 ---
 ぬるぽを起こしてしまい殴られる危険性がない = 安全
@@ -90,8 +90,8 @@ C# 8.0でC#にもnull安全が導入予定
 ---
 nullと上手に付き合う
 ```csharp
-hoge?.fuga;
-hoge ?? fuga;
+hoge?.fuga
+hoge ?? fuga
 hoge?[0]
 ```
 ---
