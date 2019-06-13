@@ -44,7 +44,8 @@ class NullPoTest
 - nullチェック漏れはないか
 - テストケースに漏れがないか |
 - 稼働中にぬるぽしたらどうしよう |
-**- 不安で夜も眠れない** |
+---
+**不安で夜も眠れない**
 ---
 >"I call it my billion-dollar mistake." by Tony Hoare
 ---
